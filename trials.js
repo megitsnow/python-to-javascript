@@ -6,8 +6,7 @@
 //   hello
 //   true
 function outputAllItems(items) {
-  for (const item of items) {
-    console.log(item);
+  for (const item of items) {    console.log(item);
   }
 }
 
@@ -20,7 +19,7 @@ function getAllEvens(nums) {
   const evenNums = [];
 
   for (const num of nums) {
-    if (num % 2 === 0) {
+    if (num % 2 === 0) { 
       evenNums.push(num);
     }
   }
